@@ -1,0 +1,46 @@
+<ForceField>
+  <AtomTypes>
+    <Type name="0" class="ADE" element="Ar" mass="328.212"/>
+    <Type name="1" class="GUA" element="Ga" mass="344.212"/>
+    <Type name="2" class="CYT" element="C"  mass="304.182"/>
+    <Type name="3" class="URA" element="U"  mass="305.164"/>
+  </AtomTypes>
+  <Residues>
+    <Residue name="ADE">
+      <Atom name="A" type="0"/>
+      <ExternalBond atomName="A"/>
+      <ExternalBond atomName="A"/>
+    </Residue>
+    <Residue name="ADET">
+      <Atom name="A" type="0"/>
+      <ExternalBond atomName="A"/>
+    </Residue>
+    <Residue name="GUA">
+      <Atom name="G" type="1"/>
+      <ExternalBond atomName="G"/>
+      <ExternalBond atomName="G"/>
+    </Residue>
+    <Residue name="GUAT">
+      <Atom name="G" type="1"/>
+      <ExternalBond atomName="G"/>
+    </Residue>
+    <Residue name="CYT">
+      <Atom name="C" type="2"/>
+      <ExternalBond atomName="C"/>
+      <ExternalBond atomName="C"/>
+    </Residue>
+    <Residue name="CYTT">
+      <Atom name="C" type="2"/>
+      <ExternalBond atomName="C"/>
+    </Residue>
+    <Residue name="URA">
+      <Atom name="U" type="3"/>
+      <ExternalBond atomName="U"/>
+      <ExternalBond atomName="U"/>
+    </Residue>
+    <Residue name="URAT">
+      <Atom name="U" type="3"/>
+      <ExternalBond atomName="U"/>
+    </Residue>
+  </Residues>
+</ForceField>
